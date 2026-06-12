@@ -93,7 +93,7 @@ export default function SearchFilter() {
             <button
               onClick={() => scrollTo("inventory")}
               className="bg-primary hover:bg-primary/90 text-white font-bold tracking-widest text-sm px-8 py-3 rounded-lg transition-all duration-200 flex items-center gap-2 font-heading"
-              style={{ boxShadow: "0 4px 16px rgba(255,106,0,0.3)" }}
+              
             >
               <Search size={16} />
               BEKIJK AANBOD (3)

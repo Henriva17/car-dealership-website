@@ -65,7 +65,7 @@ export default function Hero() {
           <button
             onClick={() => scrollTo("inventory")}
             className="group bg-primary hover:bg-primary/90 text-white font-bold tracking-widest text-sm px-8 py-4 rounded-lg transition-all duration-200 flex items-center gap-2 font-heading"
-            style={{ boxShadow: "0 4px 20px rgba(255,106,0,0.35)" }}
+            
           >
             BEKIJK ONS AANBOD
             <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />

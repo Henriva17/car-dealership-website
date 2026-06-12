@@ -77,7 +77,7 @@ Onze klanten kunnen rekenen op professionele begeleiding, eerlijke prijzen en ui
 
             <button
               className="bg-primary hover:bg-primary/90 text-white font-bold tracking-widest text-sm px-8 py-4 rounded-lg transition-all duration-200 font-heading w-full"
-              style={{ boxShadow: "0 4px 16px rgba(255,106,0,0.3)" }}
+              
               onClick={() => {
                 const el = document.getElementById("contact");
                 if (el) el.scrollIntoView({ behavior: "smooth" });
