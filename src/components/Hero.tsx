@@ -10,23 +10,22 @@ export default function Hero() {
 
   return (
     <section
-      id="vehicles"
-      className="relative min-h-screen flex items-center justify-center overflow-hidden"
-      style={{
-        backgroundImage:
-          "url('/Hero.png')",
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-      }}
+  id="vehicles"
+  className="relative min-h-screen flex items-start md:items-center justify-center overflow-hidden pt-28 md:pt-0"
+  style={{
+    backgroundImage: "url('/Hero.png')",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+  }}
     >
       {/* Dark overlay */}
-     {/*<div className="absolute inset-0 bg-[#1F2937]/75" />*}
+     <div className="absolute inset-0 bg-[#1F2937]/75" />
 
       {/* Gradient bottom fade */}
       <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-[#F3F4F6] to-transparent" />
 
       {/* @section: hero-content */}
-      <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
+      <div className="relative z-10 text-center px-6 max-w-4xl mx-auto pt-8 md:pt-0">
         <motion.p
           className="text-primary text-sm font-semibold tracking-[0.3em] uppercase mb-4 font-heading"
           initial={{ opacity: 0, y: 20 }}
@@ -37,10 +36,11 @@ export default function Hero() {
         </motion.p>
 
         <motion.h1
-          className="text-white text-5xl md:text-7xl font-bold leading-tight mb-6 font-heading"
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7, delay: 0.1 }}
+  className="text-white text-4xl sm:text-5xl md:text-7xl font-bold leading-tight mb-6 font-heading"
+  initial={{ opacity: 0, y: 30 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.7, delay: 0.1 }}
+
         >
           Uw volgende auto,{" "}
           <span className="text-primary">onze passie.</span>
