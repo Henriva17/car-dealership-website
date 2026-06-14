@@ -13,7 +13,7 @@ const features = [
   {
     icon: Wrench,
     title: "Eigen Werkplaats",
-    desc: "Elke auto ondergaat een uitgebreide technische controle voordat deze wordt opgenomen in ons aanbod.",
+    desc: "Onze gecertificeerde monteurs verzorgen alle onderhouds- en reparatiewerkzaamheden in eigen beheer, met oog voor kwaliteit en precisie.",
     color: "text-primary",
     bg: "bg-orange-50",
   },

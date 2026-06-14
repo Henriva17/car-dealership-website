@@ -118,8 +118,8 @@ export const reviews: Review[] = [
 export const newsItems: NewsItem[] = [
   {
     id: 1,
-    title: "Nieuwe modellen 2024 zijn gearriveerd",
-    date: "15 November 2025",
+    title: "Nieuwe modellen 2026 zijn gearriveerd",
+    date: "14 Juni 2026",
     category: "Nieuws",
     excerpt: "Ontdek onze nieuwste aankomsten: de vernieuwde modellen met de modernste technologie.",
     image: "/modellen.png",
@@ -127,7 +127,7 @@ export const newsItems: NewsItem[] = [
   {
     id: 2,
     title: "Financieringsopties: alles wat u moet weten",
-    date: "28 Oktober 2025",
+    date: "10 Juni 2026",
     category: "Financiering",
     excerpt: "Financial Lease is een financieringsvorm bestemd voor de aanschaf van bedrijfswagens, personenauto’s en overige bedrijfsmiddelen zoals machines, inventarissen of computers. Wij rekenen graag de mogelijkheden voor u uit!",
     image: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=600&q=80",
@@ -135,7 +135,7 @@ export const newsItems: NewsItem[] = [
   {
     id: 3,
     title: "Onderhoudstips voor de winter",
-    date: "10 Oktober 2025",
+    date: "01 September 2025",
     category: "Onderhoud",
     excerpt: "Bereid uw voertuig voor op de wintermaanden met onze professionele onderhoudstips.",
     image: "/Onderhoud.png",

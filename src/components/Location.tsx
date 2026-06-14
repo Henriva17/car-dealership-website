@@ -60,7 +60,7 @@ Onze klanten kunnen rekenen op professionele begeleiding, eerlijke prijzen en ui
               {/* Contact details */}
               <div className="space-y-4 mb-8">
                 {[
-                  { icon: MapPin, text: "Vrijheid 100, 2320 Hoogstraten, Belgium" },
+                  { icon: MapPin, text: " De Haak 8A 5555XK Valkenswaard, Nederland" },
                   { icon: Phone, text: "0642405744" },
                   { icon: Mail, text: "info@deenautomotivevalkenswaard.nl" },
                   { icon: Clock, text: "Man–Vri: 09:00–18:00 | Sat: 09:00–16:00" },

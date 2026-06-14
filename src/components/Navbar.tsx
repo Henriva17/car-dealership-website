@@ -3,7 +3,12 @@ import { useState, useEffect } from "react";
 import { Heart, User, Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
-const navLinks = ["AANBOD", "DIENSTEN", "OVER ONS", "CONTACT"];
+const navLinks = [
+  { label: "AANBOD", section: "inventory" },
+  { label: "DIENSTEN", section: "services" },
+  { label: "OVER ONS", section: "about" },
+  { label: "CONTACT", section: "contact" },
+];
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -43,11 +48,11 @@ export default function Navbar() {
         <div className="hidden md:flex items-center gap-8">
           {navLinks.map((link) => (
             <button
-              key={link}
-              onClick={() => scrollTo(link)}
+              key={link.label}
+              onClick={() => scrollTo(link.section)}
               className="text-white text-sm font-semibold tracking-widest hover:text-primary transition-colors duration-200 font-heading"
             >
-              {link}
+              {link.label}
             </button>
           ))}
         </div>
@@ -83,11 +88,11 @@ export default function Navbar() {
           >
             {navLinks.map((link) => (
               <button
-                key={link}
-                onClick={() => scrollTo(link)}
+                key={link.label}
+                onClick={() => scrollTo(link.section)}
                 className="block w-full text-left text-white text-sm font-semibold tracking-widest py-3 border-b border-white/10 hover:text-primary transition-colors"
               >
-                {link}
+                {link.label}
               </button>
             ))}
           </motion.div>
