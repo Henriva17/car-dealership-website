@@ -13,7 +13,7 @@ export default function Hero() {
   id="vehicles"
   className="relative min-h-screen flex items-start md:items-center justify-center overflow-hidden pt-28 md:pt-0"
   style={{
-    backgroundImage: "url('/Hero.png')",
+    backgroundImage: "url('/Hero1.png')",
     backgroundSize: "cover",
     backgroundPosition: "center",
   }}
